@@ -1,0 +1,16 @@
+{
+  "name": "racelens-replay",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Upcoming real G1 race simulation with source timestamps and reproducible forecasts.",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "update:catalog": "node tools/update-catalog.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
